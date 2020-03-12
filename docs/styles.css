@@ -1,0 +1,3 @@
+:root{--primary: salmon;--secondary: steelblue}*{box-sizing:border-box}body{font-family:sans-serif;color:var(--secondary)}.mb-20{margin-bottom:20px !important}.hidden{display:none !important}header{background:var(--primary)}.header__nav{background:plum}
+
+/*# sourceMappingURL=styles.css.map */
