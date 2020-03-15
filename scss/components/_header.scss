@@ -8,8 +8,6 @@
   color: var(--secondary);
   text-align: center;
 }
-.header__title {
-}
 
 .header__nav {
   display: flex;
@@ -18,13 +16,11 @@
   padding: 8px;
   background: var(--tertiary);
 }
+
 .header__icon {
   color: var(--primary);
 }
-.header__tel {
-}
-.header__mail {
-}
+
 .header__link {
   text-decoration: none;
 }
