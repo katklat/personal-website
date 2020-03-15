@@ -1,9 +1,13 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
+:root {
+  --primary: #effffb;
+  --secondary: #50d890;
+  --tertiary: #4f98ca;
+  --quartery: #272727;
+}
 body {
-    font-family: sans-serif;
-    color: var(--secondary);
-    
+  font-family: sans-serif;
+  background-color: var(--primary);
 }
