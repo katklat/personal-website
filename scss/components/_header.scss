@@ -1,5 +1,30 @@
 .header {
-  padding: 20px;
-  margin: 20px;
-  background: salmon;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  background: var(--quartery);
+  color: var(--secondary);
+  text-align: center;
+}
+.header__title {
+}
+
+.header__nav {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  padding: 8px;
+  background: var(--tertiary);
+}
+.header__icon {
+  color: var(--primary);
+}
+.header__tel {
+}
+.header__mail {
+}
+.header__link {
+  text-decoration: none;
 }
