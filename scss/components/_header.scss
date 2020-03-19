@@ -1,24 +1,28 @@
 .header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-
-  background: var(--quartery);
-  color: var(--secondary);
+  background: var(--dark);
+  color: var(--light);
   text-align: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__title {
+  padding: 0;
 }
 
 .header__nav {
   display: flex;
-  width: 100vw;
   justify-content: space-evenly;
-  padding: 8px;
-  background: var(--tertiary);
+  align-items: center;
+  width: 100vw;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  background: var(--medium);
 }
 
 .header__icon {
-  color: var(--primary);
+  color: var(--lightest);
 }
 
 .header__link {
