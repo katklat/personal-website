@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel src/index.html --out-dir docs",
+    "build": "parcel build src/index.html",
     "prettier": "prettier --write src/**/*.{scss,html}",
     "eslint": "eslint src/js/**/*.js",
     "eslint:fix": "npm run eslint -- --fix",
