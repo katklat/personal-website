@@ -9,6 +9,7 @@ body {
   height: 100vh;
   //width: 100vw;
   background: var(--dark);
+  margin: 0;
 }
 
 main {
@@ -19,36 +20,9 @@ main {
   //margin: 0;
 }
 
-// :root {
-//   --lightest: #effffb;
-//   --light: #50d890;
-//   --medium: #4f98ca;
-//   --dark: #272727;
-// }
-
-// :root {
-//   --lightest: #e4f9f5;
-//   --light: #30e3ca;
-//   --medium: #11999e;
-//   --dark: #40514e;
-// }
-
 :root {
-  --lightest: #04f7ed;
-  --light: #86ee60;
+  --dark: #272727;
   --medium: #2e6e65;
-  --dark: #2b3752;
+  --light: #79bac1;
+  --lightest: #bbb;
 }
-
-// :root {
-//   --lightest: #f1f3f4;
-//   --light: #79bac1;
-//   --medium: #2a7886;
-//   --dark: #512b58;
-// }
-// :root {
-//   --lightest: #bbb;
-//   --light: #e9ea77;
-//   --medium: #297ca0;
-//   --dark: #46185f;
-// }
